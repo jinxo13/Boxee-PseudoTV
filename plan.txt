@@ -1,0 +1,59 @@
+Channel
+- Enable/Disable
+- Play(time)
+- Pause
+- Stop
+- NextProgram
+- PrevProgram
+- NextChannel
+- PrevChannel
+- ProgramStart
+- Timeshift(seconds)
+- GetSchedule(startTime, endTime)
+- Search
+- GetProgram(time)
+- Epg/Info
+---
+- nextMedia
+- prevMedia
+---
+- AddFilter
+- RemoveFilter
+- BuildSchedule(starttime, endtime)
+
+Filter
+- GetShows(starttime, endtime)
+- AddRule(id, Rule)
+- RemoveRule(id, Rule)
+
+Rule
+- logic....
+
+EPG (small and big)
+- NextChannel
+- PrevChannel
+- Search
+- PickChannel
+- Play -> Channel.Play(time)
+- NextDay
+- PrevDay
+- NextProgram
+- PrevProgram
+- Info
+
+MediaCollection
+- AddSource
+- RemoveSource
+- FindMedia(Filter, starttime, endtime)
+
+Media
+- type
+- thumbnail
+- url
+- content/type
+- metadata
+- length
+- Info
+
+
+EPG - events - display

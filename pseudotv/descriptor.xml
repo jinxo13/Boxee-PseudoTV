@@ -1,0 +1,16 @@
+<app>
+	<id>PseudoTV</id>
+	<name>PseudoTV for Boxee</name>
+	<version>0.1</version>
+	<description>Port of PseduoTV to Boxee</description>
+	<thumb>icon.png</thumb>
+	<repository></repository>
+	<media>video</media>
+	<copyright>Jinxo13</copyright>
+	<type>skin</type>
+	<startWindow>default</startWindow>
+	<email>support@boxee.tv</email>
+	<platform>win,linux,dlink.dsm380,intel.ce4100,iomega.zt,iomega.z1</platform>
+	<minversion>1.2</minversion>
+	<test-app>true</test-app>
+</app>
